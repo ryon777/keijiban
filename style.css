@@ -1,0 +1,123 @@
+body{font-family: "Hiragino kaku Gothic ProN","メイリオ",sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+header ul{
+    list-style-type: none;
+    line-height: 60px;
+}
+
+header ul li{
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+    color:white;
+}
+
+main{
+    clear:both;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 250%;
+}
+
+.left{
+    float: left;
+    width: 60%;
+}
+
+h1{
+    height: 40px;
+    border-left: 6px solid black;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    padding: 5px;
+}
+
+p{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-left: 4px red solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+form{
+    margin: 0 auto;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+}
+
+form div{
+    padding: 15px;
+}
+
+.text,textarea,dropdown{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+.submit{
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border-bottom: solid 2px black;
+}
+
+.kiji{
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+}
+
+.kiji h3{
+    border-bottom: 2px solid lightgray;
+}
+
+.contents{
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.handlename{
+    font-size: 17px;
+}
+.right{
+    float: left;
+    width: 40%;
+}
+
+h2{
+    width: 70%;
+    margin-left: 90px;
+    border-bottom: 2px dotted black;
+}
+
+main ul{
+    list-style: none;
+    margin-left: 80px;
+}
+
+footer{
+    clear:left;
+    width: 100%;
+    height: 60px;
+    color:white;
+    background-color:black;
+    text-align: center;
+    line-height: 60px;
+}
